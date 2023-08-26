@@ -2,9 +2,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Imagecard2 from './Imagecard2';
 
-function Imagecard2() {
+function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
@@ -32,4 +31,4 @@ function Imagecard2() {
   );
 }
 
-export default Imagecard2;
+export default NavBar;
